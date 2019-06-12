@@ -1,0 +1,32 @@
+{
+  "name": "discord-bouncer-bot",
+  "version": "1.0.0",
+  "description": "Bot that automatically kicks suspicious accounts (mostly spambots). Lets false positives verify themselves via DMs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimboKZ/discord-bouncer-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "spambots",
+    "bouncer"
+  ],
+  "author": {
+    "name": "Timur Kuzhagaliyev",
+    "email": "tim.kuzh@gmail.com",
+    "url": "https://foxypanda.me/"
+  },
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TimboKZ/discord-bouncer-bot/issues"
+  },
+  "homepage": "https://github.com/TimboKZ/discord-bouncer-bot#readme",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "discord.js": "^11.5.1"
+  }
+}
