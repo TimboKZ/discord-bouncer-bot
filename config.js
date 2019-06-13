@@ -6,6 +6,7 @@
 
 module.exports = {
     token: 'your-token-here',
+    host: 'https://localhost:31415',
     port: 31415,
     recaptcha: {
         siteKey: 'your-key-here',
