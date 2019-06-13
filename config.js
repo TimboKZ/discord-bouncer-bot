@@ -6,4 +6,9 @@
 
 module.exports = {
     token: 'your-token-here',
+    port: 31415,
+    recaptcha: {
+        siteKey: 'your-key-here',
+        secretKey: 'your-key-here',
+    },
 };
