@@ -4,6 +4,7 @@
   "description": "Bot that automatically kicks suspicious accounts (mostly spambots). Lets false positives verify themselves via DMs.",
   "main": "index.js",
   "scripts": {
+    "start": "node ./start-bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +28,17 @@
   "homepage": "https://github.com/TimboKZ/discord-bouncer-bot#readme",
   "dependencies": {
     "bluebird": "^3.5.5",
-    "discord.js": "^11.5.1"
+    "chalk": "^2.4.2",
+    "denque": "^1.4.1",
+    "discord.js": "^11.5.1",
+    "exact-trie": "^1.0.5",
+    "express": "^4.17.1",
+    "express-recaptcha": "^5.0.0",
+    "jimp": "^0.6.4",
+    "lodash": "^4.17.11",
+    "long": "^4.0.0",
+    "node-fetch": "^2.6.0",
+    "sharp": "^0.22.1",
+    "shortid": "^2.2.14"
   }
 }
