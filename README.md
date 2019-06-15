@@ -1,6 +1,8 @@
 # Discord Bouncer Bot
 Bot that automatically bans suspicious accounts (mostly spambots). Lets false positives verify themselves using Google's ReCaptcha.
 
+![Discord Bouncer Bot preview](./preview.png)
+
 # Usage
 Install dependencies using `npm install`, customise `config.js`, and run
 the bot using `npm start`.
